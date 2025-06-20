@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Siddharth Lamichhane | Personal Website</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #1c1c1c, #2c2c54);
+      color: #f4f4f4;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px 30px;
+      background-color: #111;
+    }
+
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #00ffe0;
+      margin-bottom: 15px;
+      box-shadow: 0 0 15px #00ffe0;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+    }
+
+    p.tagline {
+      font-size: 1.2rem;
+      color: #bbb;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    section {
+      margin-bottom: 50px;
+      animation: fadeIn 1s ease-in;
+    }
+
+    h2 {
+      font-size: 2rem;
+      border-bottom: 2px solid #00ffe0;
+      display: inline-block;
+      margin-bottom: 15px;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+    }
+
+    .social a {
+      margin-right: 15px;
+      text-decoration: none;
+      color: #00ffe0;
+    }
+
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      max-width: 500px;
+    }
+
+    .contact-form input, .contact-form textarea {
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+      background-color: #2f2f2f;
+      color: #fff;
+      resize: none;
+    }
+
+    .contact-form button {
+      padding: 12px;
+      background-color: #00ffe0;
+      color: #000;
+      font-weight: bold;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #111;
+      padding: 20px;
+      color: #777;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+      h2 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="c:\Users\Dell\Desktop\siddhu web.jpg" alt="Siddharth Photo" class="profile-pic" />
+  <h1>Siddharth Lamichhane</h1>
+  <p class="tagline">Aspiring Software Developer | Graphic Designer | Student from Nepal</p>
+</header>
+
+<main>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Hello! I'm Siddharth, a student passionate about technology and digital design. I love building websites, designing visuals, and exploring coding, hacking, and freelancing. My dream is to become a top software developer from Nepal.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>🎨 Graphic Designing with Canva</li>
+      <li>🖌️ Adobe Photoshop (Basic to Intermediate)</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:siddharth@example.com" style="color: #00ffe0;">siddharth@example.com</a></p>
+    <p>Phone: +977-9768404730</p>
+    <p>Socials:</p>
+    <div class="social">
+      <a href="https://facebook.com/yourprofile" target="_blank">Facebook</a>
+      <a href="https://instagram.com/yourprofile" target="_blank">Instagram</a>
+      <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+    </div>
+
+    <h3 style="margin-top: 30px;">Send Me a Message</h3>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="5" placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2025 Siddharth Lamichhane. Made with 💻 in Nepal.</p>
+</footer>
+
+</body>
+</html>
